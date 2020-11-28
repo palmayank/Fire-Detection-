@@ -1,15 +1,3 @@
-Fire Detection and localization using surveillance camera :-
-
-This system can detect fires on video frames. I have used HSV algorithm to track fires
-in images and video. This system has three main features such as Detect fire in video frame, 
-Turn on alarm sound, and then, It will send emails to fire engine services.
-
-We can improve the fire detection system through surveillance cameras by building a model
-that can not only detect the fire but also the location of the fire to provide effective detection 
-and reporting system for the safety of people.
-
-Program:-
-
 import cv2
 import numpy as np
 import smtplib
